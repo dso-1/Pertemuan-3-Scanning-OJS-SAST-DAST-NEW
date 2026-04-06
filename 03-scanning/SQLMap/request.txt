@@ -1,0 +1,15 @@
+POST http://10.34.100.178/index.php/JPK/login/signIn HTTP/1.1
+host: 10.34.100.178
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 91
+Origin: http://10.34.100.178
+Connection: keep-alive
+Referer: http://10.34.100.178/index.php/JPK/login/signIn
+Cookie: OJSSID=phqa020u1bvuia5nndu936h94p
+Upgrade-Insecure-Requests: 1
+Priority: u=0, i
+
+csrfToken=0cef47c33d7f2845ce82002aa322d7ec&source=&username=omar&password=BLABLA&remember=1
