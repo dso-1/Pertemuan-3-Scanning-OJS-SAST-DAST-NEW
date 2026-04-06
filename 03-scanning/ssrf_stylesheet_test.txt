@@ -1,0 +1,23 @@
+Note: Unnecessary use of -X or --request, POST is already inferred.
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 10.34.100.178:80...
+* Connected to 10.34.100.178 (10.34.100.178) port 80
+> POST /index.php/index/management/settings/website HTTP/1.1
+> Host: 10.34.100.178
+> User-Agent: curl/8.5.0
+> Accept: */*
+> Cookie: OJSSID=43jvdtvp09pn3opuhs4uapui1q
+> Content-Length: 55
+> Content-Type: application/x-www-form-urlencoded
+> 
+} [55 bytes data]
+< HTTP/1.1 302 Found
+< Date: Mon, 06 Apr 2026 12:50:00 GMT
+< Server: Apache/2.4.58 (Ubuntu)
+< Location: http://10.34.100.178/index.php/index/user/authorizationDenied?message=user.authorization.noContext
+< Content-Length: 0
+< Content-Type: text/html; charset=UTF-8
+< 
+100    55    0     0  100    55      0   1641 --:--:-- --:--:-- --:--:--  1666
+* Connection #0 to host 10.34.100.178 left intact

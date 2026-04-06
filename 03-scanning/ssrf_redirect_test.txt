@@ -1,0 +1,225 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 10.34.100.178:80...
+* Connected to 10.34.100.178 (10.34.100.178) port 80
+> GET /index.php/index/login?source=http://127.0.0.1:3306 HTTP/1.1
+> Host: 10.34.100.178
+> User-Agent: curl/8.5.0
+> Accept: */*
+> 
+< HTTP/1.1 200 OK
+< Date: Mon, 06 Apr 2026 12:46:37 GMT
+< Server: Apache/2.4.58 (Ubuntu)
+< Set-Cookie: OJSSID=c1jhv7pemgq8pbrlfpsmplvijt; path=/; domain=10.34.100.178
+< Cache-Control: no-store
+< Vary: Accept-Encoding
+< Transfer-Encoding: chunked
+< Content-Type: text/html; charset=utf-8
+< 
+{ [1072 bytes data]
+100  1072    0  1072    0     0  30720      0 --:--:-- --:--:-- --:--:-- 30628<br />
+<b>Deprecated</b>:  Creation of dynamic property Smarty_Internal_Template::$compiled is deprecated in <b>/var/www/html/ojs/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_internal_template.php</b> on line <b>719</b><br />
+<br />
+<b>Deprecated</b>:  Creation of dynamic property Smarty_Internal_Template::$compiled is deprecated in <b>/var/www/html/ojs/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_internal_template.php</b> on line <b>719</b><br />
+<!DOCTYPE html>
+<html lang="en-US" xml:lang="en-US">
+<br />
+<b>Deprecated</b>:  Creation of dynamic property Smarty_Internal_Extension_Handler::$_capture is deprecated in <b>/var/www/html/ojs/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_internal_extension_handler.php</b> on line <b>182</b><br />
+<br />
+<b>Deprecated</b>:  Creation of dynamic property Smarty_Internal_Template::$compiled is deprecated in <b>/var/www/html/ojs/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_internal_template.php</b> on line <b>719</b><br />
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>
+		Login
+					</title>
+
+	<br />
+<b>Deprecated</b>:  Creation of dynamic property Smarty_Internal_Extension_Handler::$getTemplateVars is deprecated in <b>/var/www/html/ojs/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_internal_extension_handler.php</b> on line <b>182</b><br />
+
+<meta name="generator" content="Open Journal Systems 3.3.0.8">
+	<link rel="stylesheet" href="http://10.34.100.178/index.php/index/$$$call$$$/page/page/css?name=stylesheet" type="text/css" /><link rel="stylesheet" href="http://10.34.100.178/index.php/index/$$$call$$$/page/page/css?name=font" type="text/css" /><link rel="stylesheet" href="http://10.34.100.178/lib/pkp/styles/fontawesome/fontawesome.css?v=3.3.0.8" type="text/css" />
+</head>
+<body class="pkp_page_login pkp_op_index has_site_logo" dir="ltr">
+
+	<div class="pkp_structure_page">
+
+				<header class="pkp_structure_head" id="headerNavigationContainer" role="banner">
+						<br />
+<b>Deprecated</b>:  Creation of dynamic property Smarty_Internal_Template::$compiled is deprecated in <b>/var/www/html/ojs/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_internal_template.php</b> on line <b>719</b><br />
+ <nav class="cmp_skip_to_content" aria-label="Jump to content links">
+	<a href="#pkp_content_main">Skip to main content</a>
+	<a href="#siteNav">Skip to main navigation menu</a>
+		<a href="#pkp_content_footer">Skip to site footer</a>
+</nav>
+
+			<div class="pkp_head_wrapper">
+
+				<div class="pkp_site_name_wrapper">
+					<button class="pkp_site_nav_toggle">
+						<span>Open Menu</span>
+					</button>
+										<div class="pkp_site_name">
+																<a href="						http://10.34.100.178/index.php/index/index
+					" class="is_img">
+							<img src="http://10.34.100.178/public/site/pageHeaderTitleImage_en_US.jpg" width="<br />
+<b>Deprecated</b>:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in <b>/var/www/html/ojs/lib/pkp/lib/vendor/smarty/smarty/libs/plugins/modifier.escape.php</b> on line <b>39</b><br />
+" height="<br />
+<b>Deprecated</b>:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in <b>/var/www/html/ojs/lib/pkp/lib/vendor/smarty/smarty/libs/plugins/modifier.escape.php</b> on line <b>39</b><br />
+" alt="test" />
+						</a>
+										</div>
+				</div>
+
+				
+				<nav class="pkp_site_nav_menu" aria-label="Site Navigation">
+					<a id="siteNav"></a>
+					<div class="pkp_navigation_primary_row">
+						<div class="pkp_navigation_primary_wrapper">
+																			<br />
+<b>Deprecated</b>:  Creation of dynamic property Smarty_Internal_Template::$compiled is deprecated in <b>/var/www/html/ojs/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_internal_template.php</b> on line <b>719</b><br />
+
+				
+
+																				</div>
+					</div>
+					<div class="pkp_navigation_user_wrapper" id="navigationUserWrapper">
+							<ul id="navigationUser" class="pkp_navigation_user pkp_nav_list">
+		<br />
+<b>Deprecated</b>:  Creation of dynamic property Smarty_Internal_Extension_Handler::$_foreach is deprecated in <b>/var/www/html/ojs/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_internal_extension_handler.php</b> on line <b>182</b><br />
+<br />
+<b>Deprecated</b>:  Creation of dynamic property Smarty_Variable::$do_else is deprecated in <b>/var/www/html/ojs/cache/t_compile/ade49584b259a94052943f98dbc0b6eb603691ca^1cc18a7bbca2985eb7be7cdb004989925d5981ed_0.app.frontendcomponentsnavigat.php</b> on line <b>30</b><br />
+						<li class="profile">
+				<a href="http://10.34.100.178/index.php/index/user/register">
+					Register
+				</a>
+							</li>
+								<li class="profile">
+				<a href="http://10.34.100.178/index.php/index/login">
+					Login
+				</a>
+							</li>
+										</ul>
+
+					</div>
+				</nav>
+			</div><!-- .pkp_head_wrapper -->
+		</header><!-- .pkp_structure_head -->
+
+						<div class="pkp_structure_content">
+			<div class="pkp_structure_main" role="main">
+				<a id="pkp_content_main"></a>
+
+<div class="page page_login">
+	<br />
+<b>Deprecated</b>:  Creation of dynamic property Smarty_Internal_Template::$compiled is deprecated in <b>/var/www/html/ojs/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_internal_template.php</b> on line <b>719</b><br />
+<nav class="cmp_breadcrumbs" role="navigation" aria-label="You are here:">
+	<ol>
+		<li>
+			<a href="http://10.34.100.178/index.php/index/index">
+				Home
+			</a>
+			<span class="separator">/</span>
+		</li>
+		<li class="current">
+			<span aria-current="page">
+									Login
+							</span>
+		</li>
+	</ol>
+</nav>
+
+	<h1>
+		Login
+	</h1>
+
+		
+	<form class="cmp_form cmp_form login" id="login" method="post" action="http://10.34.100.178/index.php/index/login/signIn">
+		<input type="hidden" name="csrfToken" value="f2308d358f0fddd057fec02cd3e951e2">
+
+		
+		<input type="hidden" name="source" value="http://127.0.0.1:3306" />
+
+		<fieldset class="fields">
+			<legend class="pkp_screen_reader">Login</legend>
+			<div class="username">
+				<label>
+					<span class="label">
+						Username
+						<span class="required" aria-hidden="true">*</span>
+						<span class="pkp_screen_reader">
+							Required
+						</span>
+					</span>
+					<input type="text" name="username" id="username" value="<br />
+<b>Deprecated</b>:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in <b>/var/www/html/ojs/lib/pkp/lib/vendor/smarty/smarty/libs/plugins/modifier.escape.php</b> on line <b>39</b><br />
+" maxlength="32" required aria-required="true">
+				</label>
+			</div>
+			<div class="password">
+				<label>
+					<span class="label">
+						Password
+						<span class="required" aria-hidden="true">*</span>
+						<span class="pkp_screen_reader">
+							Required
+						</span>
+					</span>
+					<input type="password" name="password" id="password" value="<br />
+<b>Deprecated</b>:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in <b>/var/www/html/ojs/lib/pkp/lib/vendor/smarty/smarty/libs/plugins/modifier.escape.php</b> on line <b>39</b><br />
+" password="true" maxlength="32" required aria-required="true">
+					<a href="http://10.34.100.178/index.php/index/login/lostPassword">
+						Forgot your password?
+					</a>
+				</label>
+			</div>
+			<div class="remember checkbox">
+				<label>
+					<input type="checkbox" name="remember" id="remember" value="1" checked="$remember">
+					<span class="label">
+						Keep me logged in
+					</span>
+				</label>
+			</div>
+			<div class="buttons">
+				<button class="submit" type="submit">
+					Login
+				</button>
+
+														<a href="http://10.34.100.178/index.php/index/user/register?source=http%3A%2F%2F127.0.0.1%3A3306" class="register">
+						Register
+					</a>
+							</div>
+		</fieldset>
+	</form>
+</div><!-- .page -->
+
+<br />
+<b>Deprecated</b>:  Creation of dynamic property Smarty_Internal_Template::$compiled is deprecated in <b>/var/www/html/ojs/lib/pkp/lib/vendor/smarty/smarty/libs/sysplugins/smarty_internal_template.php</b> on line <b>719</b><br />
+	</div><!-- pkp_structure_main -->
+
+							<100  9530    0  9530    0     0   244k      0 --:--:-- --:--:-- --:--:--  244k
+* Connection #0 to host 10.34.100.178 left intact
+/div><!-- pkp_structure_content -->
+
+<div class="pkp_structure_footer_wrapper" role="contentinfo">
+	<a id="pkp_content_footer"></a>
+
+	<div class="pkp_structure_footer">
+
+		
+		<div class="pkp_brand_footer" role="complementary">
+			<a href="http://10.34.100.178/index.php/index/about/aboutThisPublishingSystem">
+				<img alt="More information about the publishing system, Platform and Workflow by OJS/PKP." src="http://10.34.100.178/templates/images/ojs_brand.png">
+			</a>
+		</div>
+	</div>
+</div><!-- pkp_structure_footer_wrapper -->
+
+</div><!-- pkp_structure_page -->
+
+<script src="http://10.34.100.178/lib/pkp/lib/vendor/components/jquery/jquery.min.js?v=3.3.0.8" type="text/javascript"></script><script src="http://10.34.100.178/lib/pkp/lib/vendor/components/jqueryui/jquery-ui.min.js?v=3.3.0.8" type="text/javascript"></script><script src="http://10.34.100.178/plugins/themes/default/js/lib/popper/popper.js?v=3.3.0.8" type="text/javascript"></script><script src="http://10.34.100.178/plugins/themes/default/js/lib/bootstrap/util.js?v=3.3.0.8" type="text/javascript"></script><script src="http://10.34.100.178/plugins/themes/default/js/lib/bootstrap/dropdown.js?v=3.3.0.8" type="text/javascript"></script><script src="http://10.34.100.178/plugins/themes/default/js/main.js?v=3.3.0.8" type="text/javascript"></script>
+
+
+</body>
+</html>
