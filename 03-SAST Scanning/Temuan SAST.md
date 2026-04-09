@@ -13,7 +13,7 @@
 | **OWASP Category**         | A08: Software and Data Integrity Failures                           |
 | **Severity (Raw)**         | Medium                                                              |
 
-#w#Temuan #2
+## Temuan #2
 | Field                      | Nilai                                     |
 | -------------------------- | ----------------------------------------- |
 | **Nama Kerentanan**        | Insecure Deserialization                  |
@@ -27,7 +27,7 @@
 | **OWASP Category**         | A08: Software and Data Integrity Failures |
 | **Severity (Raw)**         | Medium                                    |
 
-##Temuan #3
+## Temuan #3
 | Field                      | Nilai                                     |
 | -------------------------- | ----------------------------------------- |
 | **Nama Kerentanan**        | Insecure Deserialization                  |
@@ -41,7 +41,7 @@
 | **OWASP Category**         | A08: Software and Data Integrity Failures |
 | **Severity (Raw)**         | Medium                                    |
 
-##Temuan #4
+## Temuan #4
 | Field                      | Nilai                                     |
 | -------------------------- | ----------------------------------------- |
 | **Nama Kerentanan**        | Insecure Deserialization                  |
@@ -55,7 +55,7 @@
 | **OWASP Category**         | A08: Software and Data Integrity Failures |
 | **Severity (Raw)**         | Medium                                    |
 
-##Temuan #5
+## Temuan #5
 | Field                      | Nilai                                          |
 | -------------------------- | ---------------------------------------------- |
 | **Nama Kerentanan**        | Insecure Deserialization                       |
@@ -69,7 +69,7 @@
 | **OWASP Category**         | A08: Software and Data Integrity Failures      |
 | **Severity (Raw)**         | Medium                                         |
 
-##Temuan #6
+## Temuan #6
 | Field                      | Nilai                          |
 | -------------------------- | ------------------------------ |
 | **Nama Kerentanan**        | Unsafe File Deletion           |
@@ -83,7 +83,7 @@
 | **OWASP Category**         | A05: Security Misconfiguration |
 | **Severity (Raw)**         | Medium                         |
 
-##Temuan #7
+## Temuan #7
 | Field                      | Nilai                          |
 | -------------------------- | ------------------------------ |
 | **Nama Kerentanan**        | Unsafe File Deletion           |
@@ -97,7 +97,7 @@
 | **OWASP Category**         | A05: Security Misconfiguration |
 | **Severity (Raw)**         | Medium                         |
 
-##Temuan #8
+## Temuan #8
 | Field                      | Nilai                                     |
 | -------------------------- | ----------------------------------------- |
 | **Nama Kerentanan**        | Insecure Deserialization                  |
@@ -111,7 +111,7 @@
 | **OWASP Category**         | A08: Software and Data Integrity Failures |
 | **Severity (Raw)**         | Medium                                    |
 
-##Temuan #9
+## Temuan #9
 | Field                      | Nilai                         |
 | -------------------------- | ----------------------------- |
 | **Nama Kerentanan**        | Command Injection (Backticks) |
@@ -125,7 +125,7 @@
 | **OWASP Category**         | A03: Injection                |
 | **Severity (Raw)**         | High                          |
 
-##Temuan #10
+## Temuan #10
 | Field                      | Nilai                         |
 | -------------------------- | ----------------------------- |
 | **Nama Kerentanan**        | Command Injection (Backticks) |
