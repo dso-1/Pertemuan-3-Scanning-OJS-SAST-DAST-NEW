@@ -1,0 +1,37 @@
+rules:
+  - id: php-eval-injection
+    patterns:
+      - pattern: eval($VAR)
+      - pattern-not: eval("...")
+    message: >
+      Penggunaan eval() dengan variabel dapat menyebabkan Code Injection.
+      Variabel $VAR berpotensi dikontrol oleh pengguna.
+    languages: [php]
+    severity: ERROR
+    metadata:
+      owasp: "A03:2021 – Injection"
+      cwe: "CWE-95"
+
+  - id: php-unserialize-user-input
+    patterns:
+      - pattern: unserialize($VAR)
+      - pattern-not: unserialize("...")
+    message: >
+      Penggunaan unserialize() berpotensi menyebabkan Object Injection / RCE.
+    languages: [php]
+    severity: WARNING
+    metadata:
+      owasp: "A08:2021 – Software and Data Integrity Failures"
+
+  - id: php-file-include-variable
+    pattern-either:
+      - pattern: include($VAR)
+      - pattern: require($VAR)
+      - pattern: include_once($VAR)
+      - pattern: require_once($VAR)
+    message: >
+      Penggunaan include/require dengan variabel berpotensi Path Traversal atau Remote File Inclusion (RFI).
+    languages: [php]
+    severity: WARNING
+    metadata:
+      owasp: "A05:2021 – Security Misconfiguration"
