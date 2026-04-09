@@ -139,4 +139,22 @@
 | **OWASP Category**         | A03: Injection                |
 | **Severity (Raw)**         | High                          |
 
-# Temuan deduplikasi 
+## Temuan Deduplikasi
+
+| No | Kerentanan | Rule Semgrep | Jumlah Awal | Setelah Deduplikasi | Status | Keterangan |
+|----|-----------|-------------|------------|---------------------|--------|------------|
+| 1 | Insecure Deserialization | unserialize-use | 6+ | 1 | Potensi | Banyak muncul pada fungsi yang sama |
+| 2 | Unsafe File Deletion | unlink-use | 2 | 1 | Potensi | Pola penghapusan file serupa |
+| 3 | Command Injection | backticks-use | 2 | 1 | Valid | Eksekusi command langsung |
+
+### Analisis Deduplikasi
+
+Dari total 38 temuan yang dihasilkan oleh Semgrep, ditemukan beberapa temuan yang memiliki pola serupa (duplikasi), seperti penggunaan fungsi `unserialize()` yang muncul di beberapa file dan baris berbeda. Temuan tersebut dikelompokkan menjadi satu kategori kerentanan yang sama yaitu Insecure Deserialization.
+
+Selain itu, beberapa temuan seperti penggunaan `unlink()` juga muncul lebih dari satu kali dengan pola yang sama sehingga dikategorikan sebagai satu jenis kerentanan.
+
+Proses deduplikasi ini bertujuan untuk menghilangkan redundansi serta mengidentifikasi kerentanan unik yang lebih representatif terhadap kondisi keamanan sistem. Temuan dengan tingkat risiko tinggi seperti penggunaan backticks tetap dipertahankan sebagai kerentanan valid.
+
+### Identifikasi False Positive
+
+Beberapa temuan dikategorikan sebagai false positive karena tidak melibatkan input pengguna secara langsung, seperti penggunaan `unserialize()` terhadap data internal sistem. Oleh karena itu, meskipun terdeteksi oleh tool, temuan tersebut tidak seluruhnya dianggap sebagai kerentanan yang dapat dieksploitasi.
