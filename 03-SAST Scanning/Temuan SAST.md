@@ -143,9 +143,9 @@
 
 | No | Kerentanan | Rule Semgrep | Jumlah Awal | Setelah Deduplikasi | Status | Keterangan |
 |----|-----------|-------------|------------|---------------------|--------|------------|
-| 1 | Insecure Deserialization | unserialize-use | 6+ | 1 | Potensi | Banyak muncul pada fungsi yang sama |
-| 2 | Unsafe File Deletion | unlink-use | 2 | 1 | Potensi | Pola penghapusan file serupa |
-| 3 | Command Injection | backticks-use | 2 | 1 | Valid | Eksekusi command langsung |
+| 1 | Insecure Deserialization | unserialize-use | 6+ | 1 | Potensi/MEDIUM | Banyak muncul pada fungsi yang sama |
+| 2 | Unsafe File Deletion | unlink-use | 2 | 1 | Potensi/MEDIUM | Pola penghapusan file serupa |
+| 3 | Command Injection | backticks-use | 2 | 1 | Valid/HIGH | Eksekusi command langsung |
 
 ### Analisis Deduplikasi
 
