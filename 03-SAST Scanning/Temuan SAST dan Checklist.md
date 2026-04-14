@@ -158,3 +158,10 @@ Proses deduplikasi ini bertujuan untuk menghilangkan redundansi serta mengidenti
 ### Identifikasi False Positive
 
 Beberapa temuan dikategorikan sebagai false positive karena tidak melibatkan input pengguna secara langsung, seperti penggunaan `unserialize()` terhadap data internal sistem. Oleh karena itu, meskipun terdeteksi oleh tool, temuan tersebut tidak seluruhnya dianggap sebagai kerentanan yang dapat dieksploitasi.
+
+# SAST Checklist
+- [x] Semgrep dengan ruleset `p/php` selesai dijalankan  
+- [x] Semgrep dengan ruleset `p/owasp-top-ten` selesai dijalankan  
+- [x] Custom rules Semgrep dijalankan  
+- [x] Manual review pada 5 file kritis  
+- [x] Temuan deduplikasi (false positive telah dihapus)  
