@@ -136,11 +136,11 @@ Tidak ditemukan adanya SQL Injection dengan SQLMap. Berikut beberapa table keter
 ### DAST Checklist
 - [x] Nikto dijalankan dan output tersimpan
 - [x] ZAP Spider dijalankan
-- [ ] ZAP Active Scan dijalankan (unauthenticated)
+- [x] ZAP Active Scan dijalankan (unauthenticated)
 - [x] ZAP Active Scan dijalankan (authenticated)
 - [x] SQLMap dijalankan
 - [x] SSRF test dilakukan pada CVE-2021-27188
-- [ ] Manual XSS test
+- [x] Manual XSS test
 
 ### Output Files
 | File | Keterangan |
